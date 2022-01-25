@@ -1,0 +1,23 @@
+html, body, svg {
+  height: 100%;
+}
+
+svg {
+  width: 100%;
+}
+
+body {
+  padding: 2em;
+  border: 1px solid red;
+  background: black;
+}
+
+svg .piece {
+  stroke: none;
+  fill: #eeeeee10;
+  /* scale: 10; */
+}
+
+svg .active {
+  fill: red;
+}
